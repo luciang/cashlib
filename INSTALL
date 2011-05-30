@@ -1,0 +1,18 @@
+
+1. Requirements:
+   - openssl
+   - boost
+   - antlr
+   - gmp
+
+Ubuntu:
+ sudo apt-get install libssl-dev libboost-all-dev libantlr-dev libgmp3-dev
+
+
+2. Compiling
+
+  cd src && make
+
+3. Example test
+
+  ./src/test
